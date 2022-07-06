@@ -19,4 +19,4 @@ This site is aimed primarily at teachers who want to use R in their lessons. On 
 
 - Getting Started
 - Ready made Math, Science and Geography lessons.
-- Or, join us for a friendly chat on Slack
+- Or, join us for a friendly chat on Slack 

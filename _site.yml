@@ -1,8 +1,9 @@
 name: "."
-title: "R-Girls Website - Tutorial"
+title: "Home"
 description: |
   R-Girls Website - Tutorial
 output_dir: "docs"
+theme: rgirls-theme.css
 navbar:
   right:
     - text: "Home"
