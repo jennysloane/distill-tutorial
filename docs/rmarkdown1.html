@@ -88,8 +88,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Home: Resources to help you begin your R coding journey</title>
+  <title>Home: Introduction to R Markdown</title>
 
+  <meta property="description" itemprop="description" content="An introduction to R using R Markdown aimed at secondary school students (age 11-16) and for complete novices. A complete lesson plan to introduce the R coding language using R Markdown to deliver instructions."/>
 
 
   <!--  https://schema.org/Article -->
@@ -97,20 +98,22 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <meta property="article:created" itemprop="dateCreated" content="2022-07-25"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Home: Resources to help you begin your R coding journey"/>
+  <meta property="og:title" content="Home: Introduction to R Markdown"/>
   <meta property="og:type" content="article"/>
+  <meta property="og:description" content="An introduction to R using R Markdown aimed at secondary school students (age 11-16) and for complete novices. A complete lesson plan to introduce the R coding language using R Markdown to deliver instructions."/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Home"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Home: Resources to help you begin your R coding journey"/>
+  <meta property="twitter:title" content="Home: Introduction to R Markdown"/>
+  <meta property="twitter:description" content="An introduction to R using R Markdown aimed at secondary school students (age 11-16) and for complete novices. A complete lesson plan to introduce the R coding language using R Markdown to deliver instructions."/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Resources to help you begin your R coding journey"]},{"type":"character","attributes":{},"value":["2022-07-25"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_depth","toc_float"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[2]},{"type":"logical","attributes":{},"value":[true]}]}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Introduction to R Markdown"]},{"type":"character","attributes":{},"value":["An introduction to R using R Markdown aimed at secondary school students (age 11-16) and for complete novices. A complete lesson plan to introduce the R coding language using R Markdown to deliver instructions.\n"]},{"type":"character","attributes":{},"value":["2022-07-25"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2433,7 +2436,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Resources to help you begin your R coding journey","authors":[],"publishedDate":"2022-07-25T00:00:00.000-04:00"}
+{"title":"Introduction to R Markdown","description":"An introduction to R using R Markdown aimed at secondary school students (age 11-16) and for complete novices. A complete lesson plan to introduce the R coding language using R Markdown to deliver instructions.","authors":[],"publishedDate":"2022-07-25T00:00:00.000-04:00"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2466,52 +2469,102 @@ Lessons
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Resources to help you begin your R coding journey</h1>
+<h1>Introduction to R Markdown</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-
+<p><p>An introduction to R using R Markdown aimed at secondary school
+students (age 11-16) and for complete novices. A complete lesson plan to
+introduce the R coding language using R Markdown to deliver
+instructions.</p></p>
 </div>
 
 
 <div class="d-article">
-<div class="d-contents d-contents-float">
-<nav class="l-text toc figcaption" id="TOC">
-<h3>Contents</h3>
+<h2 id="introduction-to-r-markdown">Introduction to R Markdown</h2>
+<h2 id="lesson-objectives">Lesson Objectives</h2>
+<p>To become familiar with the layout of an R Markdown document To
+practice typing in the code chunk To produce an output file of my work
+using the ‘knit’ command</p>
+<h2 id="packages-used-in-this-lesson">Packages used in this lesson:</h2>
 <ul>
-<li><a href="#taster">Taster</a></li>
-<li><a href="#using-r-in-the-classroom">Using R in the classroom</a>
-<ul>
-<li><a href="#setting-up-rstudio-cloud">Setting up RStudio
-Cloud</a></li>
-<li><a href="#creating-a-new-r-project-rstudio-cloud-desktop">Creating a
-new R Project (RStudio Cloud &amp; Desktop)</a></li>
-</ul></li>
+<li><code>tidyverse</code></li>
 </ul>
-</nav>
+<h2 id="success-criteria">Success Criteria:</h2>
+<p>I can write my name on my R Markdown document I can write in the code
+chunk I can produce an output file of my work</p>
+<h2 id="keywords">Keywords:</h2>
+<ul>
+<li>R code chunk</li>
+<li>knit</li>
+</ul>
+<h2 id="how-to-write-your-name-on-your-r-markdown-document">How to write
+your name on your R Markdown document</h2>
+<p>On line 3, replace where it says ‘write your name here’ with your
+full name. Make sure you don’t delete or write over the speech
+marks.</p>
+<p>Click on the ‘knit’ command at the top of the pane. After a short
+wait you will see the output file of your work. Can you see your name on
+the output file?</p>
+<p>If you can see your name, close the output file by clicking on X.</p>
+<p>If you cannot see your name, drag the output file to the side so that
+you can see what you wrote in the Markdown file. Check you typed your
+name correctly. Check that there are speech marks around your name. Knit
+your Markdown document again. Has your name been printed? If so, close
+the output file by clicking on X.</p>
+<h2 id="typing-in-the-code-chunk">Typing in the code chunk</h2>
+<p>When you write code in the code chunk, R will carry out the commands.
+Code chunks are named r chunk1, r chunk2 etc. You must write your code
+in the lines between the top row of
+<code>and the bottom row of</code>.</p>
+<p>We will tell R to do a calculation for us. Type 10 + 2 into the code
+chunk. Click on the little arrow on the right of the code chunk to tell
+R to carry out the command.</p>
+<div class="layout-chunk" data-layout="l-body">
+<pre><code>[1] FALSE</code></pre>
 </div>
-<h1 id="taster">Taster</h1>
-<p>Check out 3 online, interactive lessons to see the cool things you
-can do with R (these lessons use the <code>learnr</code> package)</p>
-<ul>
-<li>Draw boxplots</li>
-<li><a href="https://batoolmm.shinyapps.io/tutorials/#section-generating-sequences-part-1" target="_blank">Generate
-sequences</a></li>
-<li><a href="https://batoolmm.shinyapps.io/tutorials/#section-representing-data-with-boxplots" target="_blank">Representing
-data with boxplots</a></li>
-</ul>
-<h1 id="using-r-in-the-classroom">Using R in the classroom</h1>
-<h2 id="setting-up-rstudio-cloud">Setting up RStudio Cloud</h2>
-<iframe width="560" height="400" src="https://www.youtube.com/embed/L2KT0ls_oIk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
-<ul>
-<li>Packages used in all the lessons: <code>tidyverse</code>,
-<code>leaflet</code>, <code>ggeasy</code>, <code>astsa</code></li>
-</ul>
-<h2 id="creating-a-new-r-project-rstudio-cloud-desktop">Creating a new R
-Project (RStudio Cloud &amp; Desktop)</h2>
-<iframe width="560" height="400" src="https://www.youtube.com/embed/8P9E9Ut0xhQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
-<div class="sourceCode" id="cb1"><pre
+<p>Did R give you the correct answer?</p>
+<p>Now you make up an addition sum and type it into code chunk2. Don’t
+forget to click on the arrow on the right to run your code.</p>
+<div class="layout-chunk" data-layout="l-body">
+<pre><code>[1] FALSE</code></pre>
+</div>
+<p>Now click on knit. Read through your output file to check that your
+sums are printed.</p>
+<h2 id="extension">Extension</h2>
+<p>Try typing in some more calculations. Try a subtraction calculation
+or a multiplication calculation. (Use the symbol * for multiply). Type
+in code chunk3, chunk4 and chunk5 below.</p>
+<div class="layout-chunk" data-layout="l-body">
+<pre><code>[1] FALSE</code></pre>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<pre><code>[1] FALSE</code></pre>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<pre><code>[1] FALSE</code></pre>
+</div>
+<h2 id="mystery-code">Mystery code</h2>
+<p>I wonder what this code tells R to do.</p>
+<p>Carefully copy and paste the following lines of code into code chunk
+6. Run the code. What do you see?</p>
+<p>x &lt;- seq(1,128,1) y &lt;- sin((x / 128.0) * pi) n &lt;- 7 color
+&lt;- rainbow(n, s = 1, v = 1, start = 0, end = max(1, n - 1)/n, alpha =
+1) plot(x, y, type=“n”, ylim = c(0,10)) for(i in 1:7) {lines(x, y+i,
+col=color[i], lwd = 15)}</p>
+<div class="layout-chunk" data-layout="l-body">
+<pre><code>[1] FALSE</code></pre>
+</div>
+<p>KNIT YOUR DOCUMENT for the final time. This will be the version of
+your work that your teacher will check.</p>
+<p>Well done! You have completed your first R lesson.</p>
+<h2 id="the-end">THE END</h2>
+<div class="license">
+<p><strong>License and Citation:</strong> You can use, modify, and adapt
+any of the lessons, but please include the following attribution:
+<em>RGirls Community. (2022, April 10). RGirls Lessons. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.6436861">https://doi.org/10.5281/zenodo.6436861</a></em></p>
+</div>
+<div class="sourceCode" id="cb7"><pre
 class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
