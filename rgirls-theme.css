@@ -94,3 +94,21 @@ h1 {
     border-color: rgba(195, 74, 121);
     color: white;
 }
+
+
+
+d-article h1 {
+  color: #C34A79 !important;
+  font-size: 38px;
+}
+
+/*single space for the lists*/
+d-article li {
+    margin-bottom: 0em;
+}
+
+d-article a {
+  color: #C34A79;
+  border-bottom: none;
+}
+

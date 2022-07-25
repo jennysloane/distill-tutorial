@@ -1,0 +1,41 @@
+---
+title: "Resources to help you begin your R coding journey"
+# description: |
+#   A new article created using the Distill format.
+# author:
+#   - name: Nora Jones 
+#     url: https://example.com/norajones
+#     affiliation: Spacely Sprockets
+#     affiliation_url: https://example.com/spacelysprokets
+date: "`r Sys.Date()`"
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+# Taster 
+Check out 3 online, interactive lessons to see the cool things you can do with R (these lessons use the `learnr` package)
+
+- Draw boxplots
+- <a href="https://batoolmm.shinyapps.io/tutorials/#section-generating-sequences-part-1" target="_blank">Generate sequences</a>
+- <a href="https://batoolmm.shinyapps.io/tutorials/#section-representing-data-with-boxplots" target="_blank">Representing data with boxplots</a>
+
+# Using R in the classroom
+
+## Setting up RStudio Cloud
+
+<iframe width="560" height="400" src="https://www.youtube.com/embed/L2KT0ls_oIk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+- Packages used in all the lessons: `tidyverse`, `leaflet`, `ggeasy`, `astsa`
+
+## Creating a new R Project (RStudio Cloud & Desktop)
+
+<iframe width="560" height="400" src="https://www.youtube.com/embed/8P9E9Ut0xhQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
